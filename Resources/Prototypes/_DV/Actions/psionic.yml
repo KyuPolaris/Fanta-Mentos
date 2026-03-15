@@ -152,20 +152,20 @@
   - type: InstantAction
     event: !type:PsionicRegenerationPowerActionEvent
 
-- type: entity
-  parent: BasePsionicAction
-  id: ActionTelegnosis
-  name: Telegnosis
-  description: Create a telegnostic projection to remotely observe things.
-  components:
-  - type: Action
-    icon:
-      sprite: _DV/Interface/Actions/actions_psionics.rsi
-      state: telegnosis
-    useDelay: 150
-    checkCanInteract: false
-  - type: InstantAction
-    event: !type:TelegnosisPowerActionEvent
+#- type: entity # breaks consent, commented out
+#  parent: BasePsionicAction
+#  id: ActionTelegnosis
+#  name: Telegnosis
+#  description: Create a telegnostic projection to remotely observe things.
+#  components:
+#  - type: Action
+#    icon:
+#      sprite: _DV/Interface/Actions/actions_psionics.rsi
+#      state: telegnosis
+#    useDelay: 150
+#    checkCanInteract: false
+#  - type: InstantAction
+#    event: !type:TelegnosisPowerActionEvent
 
 - type: entity
   parent: BasePsionicAction

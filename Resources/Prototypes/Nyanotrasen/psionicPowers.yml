@@ -3,7 +3,7 @@
   weights:
     MetapsionicPower: 1
     DispelPower: 1
-    TelegnosisPower: 1
+#    TelegnosisPower: 1
     PsionicRegenerationPower: 1
     PrecognitionPower: 1 # DeltaV
     PsychokineticScreamPower: 1
@@ -12,4 +12,4 @@
     FracturedFormPower: 0.3
 #    PsionicInvisibilityPower: 0.15
     MindSwapPower: 0.15
-#    PsionicEruptionPower: 0.1
+    PsionicEruptionPower: 0.1
